@@ -2546,6 +2546,9 @@ paths:
                     title: >-
                       compression_id the id of the compression type with which
                       the data was compressed
+                  delegation:
+                    type: string
+                    description: delegation ...
                 title: >-
                   FinalizedBundle represents a bundle proposal where the
                   majority
@@ -2851,6 +2854,9 @@ paths:
                     title: >-
                       compression_id the id of the compression type with which
                       the data was compressed
+                  delegation:
+                    type: string
+                    description: delegation ...
                 title: >-
                   FinalizedBundle represents a bundle proposal where the
                   majority
@@ -3159,6 +3165,9 @@ paths:
                       title: >-
                         compression_id the id of the compression type with which
                         the data was compressed
+                    delegation:
+                      type: string
+                      description: delegation ...
                   title: >-
                     FinalizedBundle represents a bundle proposal where the
                     majority

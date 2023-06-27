@@ -91,6 +91,8 @@ message FinalizedBundle {
   uint32 storage_provider_id = 12;
   // compression_id the id of the compression type with which the data was compressed
   uint32 compression_id = 13;
+  // delegation ...
+  string delegation = 14 [(gogoproto.customtype) = "cosmossdk.io/math.Int"];
 }
 
 // FinalizedAt ...
